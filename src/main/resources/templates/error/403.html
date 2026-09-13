@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceso denegado - InmoVision 3D</title>
+</head>
+<body>
+    <h1>Acceso denegado</h1>
+    <p th:text="${mensaje}">No tienes permisos para acceder a esta página.</p>
+    <a th:href="@{/}">Volver al inicio</a>
+</body>
+</html>
